@@ -6,7 +6,7 @@
 [Docs](https://kaihodev.github.io/benchi) |
 [Github](https://github.com/kaihodev/benchi/tree/develop)
 
-Hikidashi is released under the [MIT license](https://github.com/kaihodev/benchi/blob/develop/LICENSE) & supports modern Node and browser environments.<br>
+Benchi is released under the [MIT license](https://github.com/kaihodev/benchi/blob/develop/LICENSE) & supports modern Node and browser environments.<br>
 
 ## Quick install
 

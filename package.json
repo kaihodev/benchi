@@ -1,6 +1,6 @@
 {
   "name": "benchi",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Benchmark your projects in typescript~",
   "main": "dist/index.js",
   "repository": "https://kaihodev@github.com/kaihodev/benchi.git",
