@@ -19,5 +19,5 @@ $ pnpm i benchi
 Note: add `--save` if you are using npm < 5.0.0
 
 <div align="center">
-<img src="https://imgur.com/a/tyyontt" width="720" />
+<img src="https://i.imgur.com/bbckZRC.jpg" width="720" />
 </div>
