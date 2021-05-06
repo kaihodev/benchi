@@ -1,0 +1,39 @@
+{
+  "name": "benchi",
+  "version": "0.0.2",
+  "description": "Benchmark your projects in typescript~",
+  "main": "dist/index.js",
+  "repository": "https://kaihodev@github.com/kaihodev/benchi.git",
+  "author": "Kaihō Dev",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "run-s build:*",
+    "build:main": "tateru",
+    "build:types": "tsc -b src",
+    "build:mjs": "gen-esm-wrapper dist/index.js dist/index.mjs"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.1",
+    "@commitlint/config-conventional": "^12.1.1",
+    "@types/benchmark": "^2.1.0",
+    "@types/jest": "^26.0.22",
+    "@types/node": "^14.14.33",
+    "@typescript-eslint/eslint-plugin": "^4.17.0",
+    "@typescript-eslint/parser": "^4.17.0",
+    "benchmark": "^2.1.4",
+    "eslint": "^7.21.0",
+    "eslint-config-strict": "https://github.com/kaihodev/eslint-config-strict",
+    "gen-esm-wrapper": "^1.1.1",
+    "husky": "^6.0.0",
+    "jest": "^26.6.3",
+    "jest-circus": "^26.6.3",
+    "lint-staged": "^10.5.4",
+    "npm-run-all": "^4.1.5",
+    "tateru": "^0.0.4",
+    "ts-jest": "^26.5.5",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.2.3"
+  }
+}

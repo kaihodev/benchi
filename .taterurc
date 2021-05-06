@@ -1,0 +1,5 @@
+[benchi_bundle]
+out_dir = 'dist'
+cjs = true
+minify = true
+modules = 'src/index.ts'
